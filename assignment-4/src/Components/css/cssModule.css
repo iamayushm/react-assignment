@@ -1,0 +1,56 @@
+.primary {
+  width: 300px;
+  height: 40px;
+  background: #509de6;
+  margin: auto;
+}
+.primary:hover {
+  transform: scale(
+    2
+  );
+}
+
+.secondary {
+  width: 300px;
+  height: 40px;
+  background: #a5a5a5;
+  margin: auto;
+}
+.secondary:hover {
+    transform: scale(
+      2
+    );
+  }
+.success {
+  width: 300px;
+  height: 40px;
+  background: #7bc590;
+  margin: auto;
+}
+.success:hover {
+    transform: scale(
+      2
+    );
+  }
+.danger {
+  width: 300px;
+  height: 40px;
+  background: #f78e8e;
+  margin: auto;
+}
+.danger:hover {
+    transform: scale(
+      2
+    );
+  }
+.warning {
+  width: 300px;
+  height: 40px;
+  background: #f5d992;
+  margin: auto;
+}
+.warning:hover {
+    transform: scale(
+      2
+    );
+  }

@@ -1,0 +1,20 @@
+.input{
+    width: 300px;
+    background: #f6f3f3;
+    border: 4px;
+    border-style: dotted;
+    border-color: purple;
+    text-align: center;
+    margin:auto;
+    color: purple;
+  }
+
+  .input2{
+    width: 300px;
+    background: #e4e1e1;
+    border: 4px;
+    border-color: black;
+    border-style: solid;;
+    text-align: center;
+    margin:auto;
+  }
