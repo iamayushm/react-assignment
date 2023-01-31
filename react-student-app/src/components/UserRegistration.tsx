@@ -3,6 +3,7 @@ import { useUserContext } from "../context/userContext";
 
 
 type User = {
+  id: number,
   name: string;
   email: string;
   gender: string;
@@ -11,7 +12,7 @@ type User = {
 
 const UserRegistration = () => {
 
-  let {user, inputOnChange, userFormSubmit} = useUserContext()
+  let {currentUser, inputOnChange, userFormSubmit} = useUserContext()
 
 
   return (
@@ -27,7 +28,7 @@ const UserRegistration = () => {
               type="text"
               className="form-control"
               placeholder="Enter User Name"
-              value={user.name}
+              value={currentUser.name}
               name="name"
               onChange={inputOnChange}
             />
@@ -40,7 +41,7 @@ const UserRegistration = () => {
               type="email"
               className="form-control"
               placeholder="Enter User Name"
-              value={user.email}
+              value={currentUser.email}
               name="email"
               onChange={inputOnChange}
             />
